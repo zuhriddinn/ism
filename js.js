@@ -11,9 +11,11 @@ for (i = 1; i <= a; i++) {
         Soni: a
 
     }
-    alert ( ' Foydalanuvchining Ismi ' + foydalanuvchila.Ismi , ' Foydalanuvchining Yoshi ' +  foydalanuvchila.Yoshi + 'Если что Konsoldayam bor')
-    console.log( i + (' inchi foydalanuvchi'));
-    console.log( ' Foydalanuvchining Ismi ' + foydalanuvchila.Ismi , ' Foydalanuvchining Yoshi ' +  foydalanuvchila.Yoshi);
-}  
+
+    console.log(i + (' inchi foydalanuvchi'));
+    console.log(' Foydalanuvchining Ismi ' + foydalanuvchila.Ismi, ' Foydalanuvchining Yoshi ' + foydalanuvchila.Yoshi);
+}
+
+alert('Ism ' + foydalanuvchila.Ismi, ' yosh ' + foydalanuvchila.Yoshi + 'Если что Konsoldayam bor')
 
 
